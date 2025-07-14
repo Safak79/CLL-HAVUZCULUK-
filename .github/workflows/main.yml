@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CLL Havuzculuk - Çeşme Havuz Temizliği</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f9fb;
+      color: #333;
+      padding: 0 1rem;
+    }
+    header {
+      background: #008cba;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      border-radius: 0 0 12px 12px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      margin: 0.3rem 0 0;
+      font-size: 1.1rem;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #0077a6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #008cba;
+      margin-bottom: 0.7rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    button[type="submit"] {
+      background: #008cba;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1.5rem;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      font-weight: bold;
+      width: 100%;
+    }
+    footer {
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+      padding: 1rem 0 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CLL Havuzculuk</h1>
+  <p>Çeşme’de Profesyonel Havuz Temizliği ve Bakım Hizmeti</p>
+  <a href="https://wa.me/905539245436?text=Merhaba%20CLL%20Havuzculuk,%20havuz%20bakım%20hizmetleri%20ile%20ilgileniyorum." target="_blank" class="button">Hemen Teklif Al (WhatsApp)</a>
+</header>
+
+<section>
+  <h2>Hizmetlerimiz</h2>
+  <ul>
+    <li>Haftalık & Aylık Havuz Temizliği</li>
+    <li>Kimyasal Dengeleme (pH, klor vb.)</li>
+    <li>Filtre ve Pompa Bakımı</li>
+    <li>Yosun Temizliği ve Sezon Hazırlığı</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Hakkımızda</h2>
+  <p>CLL Havuzculuk olarak Çeşme'de havuzlarınızın temiz, güvenli ve sağlıklı kalması için titizlikle çalışıyoruz. Profesyonel ekipman, kaliteli malzeme ve zamanında hizmet anlayışı ile yanınızdayız.</p>
+</section>
+
+<section>
+  <h2>Teklif Formu</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data">
+    <label for="ad">Adınız:</label>
+    <input type="text" id="ad" name="ad" required />
+
+    <label for="telefon">Telefon:</label>
+    <input type="tel" id="telefon" name="telefon" required />
+
+    <label for="email">E-posta:</label>
+    <input type="email" id="email" name="email" />
+
+    <label for="uzunluk">Havuz Uzunluğu (m):</label>
+    <input type="number" id="uzunluk" name="uzunluk" step="0.01" required />
+
+    <label for="genislik">Havuz Genişliği (m):</label>
+    <input type="number" id="genislik" name="genislik" step="0.01" required />
+
+    <label for="derinlik">Havuz Derinliği (m):</label>
+    <input type="number" id="derinlik" name="derinlik" step="0.01" required />
+
+    <label for="foto">Havuz Fotoğrafı Yükle:</label>
+    <input type="file" id="foto" name="foto" accept="image/*" />
+
+    <label for="not">Ek Notlar:</label>
+    <textarea id="not" name="not" rows="4"></textarea>
+
+    <button type="submit">Teklif Gönder</button>
+  </form>
+</section>
+
+<section>
+  <h2>İletişim</h2>
+  <p><strong>Telefon:</strong> <a href="tel:+905539245436">0553 924 5436</a></p>
+  <p><strong>E-posta:</strong> <a href="mailto:erdenizsafak@gmail.com">erdenizsafak@gmail.com</a></p>
+  <p><strong>Hizmet Bölgesi:</strong> Çeşme ve çevresi</p>
+</section>
+
+<footer>
+  © 2025 CLL Havuzculuk – Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>
